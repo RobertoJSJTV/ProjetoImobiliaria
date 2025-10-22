@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-nav{
+    background: #DBCDC6;
+}
+.logo{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.logo:hover{
+    color: #35A7FF;
+    transition: 0.5s;
+    border: 1px solid #35A7FF;
+    padding: 10px;
+    border-radius: 25px;
+}
+.click{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #111;
+}
+.click:hover{
+    transition: 0.5s;
+    color: #35A7FF;
+    border-bottom: 1px solid #35A7FF;
+}
