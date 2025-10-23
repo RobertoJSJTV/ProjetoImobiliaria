@@ -33,7 +33,34 @@
             </div>
         </div>
     </nav>
+    <div class="fundo-cima bg-dark">
+        <div class="container fundo form-group ">
+            <form action="" class="bg-form-home">
 
+                <select name="tipo" id="tipo" aria-placeholder="qual tipo?" required>
+                    <option value="qltipo">Qual tipo?</option>
+                    <optgroup label="Residencial">
+                        <option value="apartamento">Apartamento</option>
+                        <option value="casa">Casa</option>
+                        <option value="casaCondominio">Casa em Condomínio</option>
+                    </optgroup>
+                    <optgroup label="Comercial">
+                        <option value="loja">Loja</option>
+                        <option value="predioComercial">Prédio comercial</option>
+                        <option value="galpao">Galpão</option>
+                    </optgroup>
+                </select>
+                <select cl name="bairro" id="bairro" required>
+                    <option value="qlBairro">Qual Bairro?</option>
+                    <option value="morumbi">Morumbi</option>
+                    <option value="alphaville">Alphaville</option>
+                    <option value="vila mariana">Vila Mariana</option>
+                    <option value="grança viana">Granja Viana</option>
+                </select>
+                <input class="btn btn-outline-info fw-bold " type="submit" placeholder="Buscar">
+            </form>
+        </div>
+    </div>
 
 
 

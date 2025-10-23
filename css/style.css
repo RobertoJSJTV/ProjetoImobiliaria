@@ -1,29 +1,63 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.bg-nav{
+
+.bg-nav {
     background: #DBCDC6;
 }
-.logo{
+
+.logo {
     font-size: 1.5em;
     font-weight: bold;
 }
-.logo:hover{
+
+.logo:hover {
     color: #35A7FF;
     transition: 0.5s;
     border: 1px solid #35A7FF;
     padding: 10px;
     border-radius: 25px;
 }
-.click{
+
+.click {
     font-size: 1.1em;
     font-weight: bold;
     color: #111;
 }
-.click:hover{
+
+.click:hover {
     transition: 0.5s;
     color: #35A7FF;
     border-bottom: 1px solid #35A7FF;
+}
+
+.fundo-cima {
+    height: 450px;
+    background: url(../img/predios.jpeg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    display: flex;
+
+}
+
+.fundo {
+    background: white;
+    color: black;
+    margin: 0 auto;
+    opacity: 70%;
+    height: 190px;
+}
+.fundo select{
+    color: #111;
+    width: 350px;
+    height: 50px;
+    border-radius: 15px;
+}
+.fundo input[type=submit]{
+    width: 10%;
+    height: 50px;
+
 }
